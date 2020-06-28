@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class GoodsStart {
 	public static void main(String[] args) throws IOException {
-		System.err.println("服务开始启动1");
+		System.err.println("服务开始启动");
 		
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
 				"classpath:applicationContext-dubbo-provider.xml", "classpath:applicationContext-dao.xml");
