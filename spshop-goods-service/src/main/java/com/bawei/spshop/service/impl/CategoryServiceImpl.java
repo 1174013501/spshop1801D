@@ -35,6 +35,7 @@ public class CategoryServiceImpl  implements CategoryService {
 	@Override
 	public int del(int id) {
 		// TODO Auto-generated method stub
+		System.out.println(id);
 		return catDao.delete(id);
 	}
 

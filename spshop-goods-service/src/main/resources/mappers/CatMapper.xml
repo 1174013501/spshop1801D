@@ -19,7 +19,7 @@
 			WHERE id=#{id}
 	</update>
 	<!-- int delete(int id); -->
-	<delete id=" delete">
+	<delete id="delete">
 		DELETE FROM hg_category WHERE id=#{id}
 	</delete>
 	
