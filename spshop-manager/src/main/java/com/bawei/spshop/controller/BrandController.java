@@ -23,6 +23,6 @@ public class BrandController {
 		List<Brand> list = brandService.list();
 		model.addAttribute("list", list);
 		
-		return "list";
+		return "brand/list";
 	}
 }
