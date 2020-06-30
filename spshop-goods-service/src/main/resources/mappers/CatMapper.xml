@@ -28,4 +28,8 @@
 		SELECT * FROM hg_category WHERE parent_id=#{value}
 	</select>
 	
+	<select id="findById" resultMap="CapMap">
+		SELECT * FROM hg_category WHERE parent_id=#{value}
+	</select>
+	
 </mapper> 

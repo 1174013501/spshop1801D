@@ -77,4 +77,10 @@ public class SpecServiceImpl implements SpecService {
 		return specDao.findById(id);
 	}
 
+	@Override
+	public List<Spec> listAll() {
+		// TODO Auto-generated method stub
+		return specDao.listAll();
+	}
+
 }

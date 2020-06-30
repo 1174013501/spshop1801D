@@ -28,4 +28,5 @@ public interface SpecDao {
 	// 回显
 	Spec findById(int id);
 
+	List<Spec> listAll();
 }
